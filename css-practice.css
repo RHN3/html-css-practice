@@ -1,0 +1,30 @@
+*{
+    background-color: bisque;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+    color:  rgb(86, 48, 8);
+    padding: 1px;
+    text-align: left;
+
+    
+}
+body{
+    margin-top: 40px;
+    margin-left: 50px;
+}
+img{
+    width: 200px;
+    height: 200px;
+    border: 5px solid gray;
+ 
+}
+.container {
+    grid-template-rows: 100px 100px 100px 100px 100px 100px  ;
+    grid-template-columns: 100px 100px 100px 100px 100px 100px ;
+}
+.item1 {
+    grid-row-start: 1;
+    grid-row-end: 6;
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
